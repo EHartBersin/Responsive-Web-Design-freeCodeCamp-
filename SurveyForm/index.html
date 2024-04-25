@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+
+        <label id="name-label" for="name">Name <input type="text" id="name" class="textInput" placeholder="Enter your name" required></label>
+
+        <label id="email-label" for="email">Email <input type="email" id="email" class="textInput" placeholder="Enter your email" required></label>
+
+        <label id="number-label" for=>Age <input type="number" id="number" class="textInput" min="16" max="120" placeholder="Age"></label>
+
+        <label for="dropdown"> What best describes your current level of study?</label>
+        <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Freshman</option>
+            <option value="2">Sophomore</option>
+            <option value="3">Junior</option>
+            <option value="3">Senior</option>
+            <option value="3">Graduate</option>
+            <option value="3">Other</option>
+        </select>
+
+        <div class="container">
+            <legend>Which of the following certificates have you completed, or are currently taking? (Select all that apply)</legend>
+            <label for="responsive"><input id="responsive" type="checkbox" class="inline" value="0"/> Responsive Web Design</label>
+            <label for="data"><input id="data" type="checkbox" class="inline" value="1"/> Data Visualization</label>
+            <label for="back"><input id="back" type="checkbox" class="inline" value="2"/> Back End Development and APIs</label>
+            <label for="quality"><input id="quality" type="checkbox" class="inline" value="3"/> Quality Assurance</label>
+            <label for="information"><input id="information" type="checkbox" class="inline" value="4"/> Information Security</label>
+            <label for="machine"><input id="machine" type="checkbox" class="inline" value="5"/> Machine Learning with Python</label>
+        </div>
+
+        <div class="container">
+            <legend>How likely are you to recommend freeCodeCamp to a friend?</legend>
+            <label for="very-likely"><input id="very-likely" type="radio" name="recommend" class="inline" value="0" checked /> Very Likely</label>
+            <label for="likely"><input id="likely" type="radio" name="recommend" class="inline" value="1" /> Likely</label>
+            <label for="unlikely"><input id="unlikely" type="radio" name="recommend" class="inline" value="2" /> Unlikely</label>
+            <label for="very-unlikely"><input id="very-unlikely" type="radio" name="recommend" class="inline" value="3" /> Very Unlikely</label>
+        </div>
+
+        <div class="container">
+            <label for="comments">Any comments or suggestions? <textarea id="comments"></textarea></label>
+        </div>
+
+        <input id="submit" type="submit" class="submit">
+    </form>
+    </body>
+</html>

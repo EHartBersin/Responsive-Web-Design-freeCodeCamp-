@@ -1,0 +1,94 @@
+body {
+    font-family: Tahoma;
+    background-color: #F2F2F2;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 2rem 0;
+}
+
+#title {
+    color: #539339;
+}
+
+#title, #description {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    border-radius: 16px;
+    width: 60vw;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+label {
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+}
+
+select {
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+    display: block;
+    margin: 0.25rem 0 1.2rem 0;
+    padding: 0 10px;
+    width: 75%;
+    height: 1.75rem;
+    font-size: 0.95rem;
+}
+
+legend {
+    display: block;
+    margin: 0 auto;
+}
+
+textarea{
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: 0.25rem 0 1rem 0;
+    width: 100%;
+    height: 4rem;
+    font-size: 0.95rem;
+    padding: 10px;
+}
+
+.textInput {
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin: 0.25rem 0 1.2rem 0;
+    width: 100%;
+    height: 1.75rem;
+    font-size: 0.95rem;
+    padding: 10px;
+}
+
+.inline {
+    display: inline;
+    margin: 0.45rem;
+}
+
+.container {
+    margin: 0.25rem 0 1.2rem 0;
+}
+
+.submit {
+    background-color: #539339;
+    color: white;
+    width: 100px;
+    height: 2rem;
+    margin: 0 20px 0 auto;
+    border-radius: 8px;
+    border: none;
+}
