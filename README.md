@@ -1,1 +1,2 @@
 # Responsive Web Design from the freeCodeCamp Certificate
+This is a collection of the projects completed for freeCodeCamp's Responsive Web Design certificate. The course consists of five certification projects: Survey Form, Tribute Page, Technical Documentation Page, Product Landing Page, Personal Portfolio Webpage. Each project, along with its requirements, can be found in its respective folder.

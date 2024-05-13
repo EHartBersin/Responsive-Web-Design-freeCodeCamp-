@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+  
+main {
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 8px auto;
+}
+
+p {
+    margin: 0 auto;
+}
+
+#img-div {
+    margin: 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#tribute-info{
+    margin-top: 50px;
+}
+
+ul {
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+}
+
+li {
+    margin: 12px 0;
+    line-height: 1.5rem;
+}
+
+h3 {
+    margin-top: 50px;
+}
